@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Chat Demo</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="chat">
+    <header>
+      <h1>AI Chat Demo</h1>
+      <p>Streaming OpenAI responses through a secure Node.js API</p>
+    </header>
+    <section id="log" class="log" aria-live="polite"></section>
+    <form id="form" class="composer">
+      <input id="input" type="text" maxlength="2000" placeholder="Ask something..." aria-label="Your message" autocomplete="off" required>
+      <button id="send" type="submit">Send</button>
+    </form>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
