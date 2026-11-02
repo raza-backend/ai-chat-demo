@@ -2,7 +2,7 @@
 
 Streaming chat API built with Express and the OpenAI SDK, plus a minimal chat UI. The API key stays on the server and is never sent to the browser.
 
-**Live:** `<LIVE_URL>`
+**Live:** https://ai-chat-demo-kappa-six.vercel.app · **Health:** https://ai-chat-demo-kappa-six.vercel.app/health
 
 ## Stack
 Express 5 · TypeScript · OpenAI SDK · Zod · Helmet · express-rate-limit
